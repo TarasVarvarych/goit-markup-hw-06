@@ -815,6 +815,7 @@ address {
   line-height: calc(23 / 20);
   text-align: center;
   color: var(--title-color);
+  margin-bottom: 12px;
 }
 
 .comment {
