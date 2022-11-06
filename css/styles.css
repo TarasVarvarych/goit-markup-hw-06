@@ -901,6 +901,7 @@ address {
   border-radius: 2px;
   transition: background-color 250ms var(--transition-cubic),
     border-color 250ms var(--transition-cubic);
+  margin-right: 7px;
 }
 
 .terms:checked + .icon-check {
@@ -909,6 +910,8 @@ address {
 }
 
 .terms-label {
-  display: block;
-  text-align: center;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
 }
