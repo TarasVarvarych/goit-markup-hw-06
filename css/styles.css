@@ -729,7 +729,6 @@ address {
   background-color: var(--white-color);
   width: 528px;
   height: 581px;
-  display: flex;
   padding: 40px;
 }
 
@@ -745,17 +744,12 @@ address {
   border: 1px solid rgba(0, 0, 0, 0.1);
   top: 8px;
   right: 8px;
-  transition: border-color 250ms var(--transition-cubic);
+  cursor: pointer;
 }
 
 .close:hover .close-svg,
 .close:focus .close-svg {
   fill: var(--brand-color);
-}
-
-.close:hover,
-.close:focus {
-  border-color: var(--brand-color);
 }
 
 .close-svg {

@@ -414,8 +414,8 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
+        <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
         <form class="form">
-          <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
           <ul class="data-list">
             <li class="data-list-item">
               <label class="label-data" for="name">Ім'я </label>
@@ -450,17 +450,18 @@
                 </svg>
               </div>
             </li>
+            <li class="data-list-item">
+              <label for="comment-area" class="label-comment">Коментар</label>
+              <textarea
+                name="comment-area"
+                id="comment-area"
+                cols="30"
+                rows="10"
+                class="comment"
+                placeholder="Введіть текст"
+              ></textarea>
+            </li>
           </ul>
-          <label for="comment-area" class="label-comment">Коментар</label>
-          <textarea
-            name="comment-area"
-            id="comment-area"
-            cols="30"
-            rows="10"
-            class="comment"
-            placeholder="Введіть текст"
-          ></textarea>
-
           <label class="terms-label">
             <input type="checkbox" class="terms" name="terms" /><svg
               class="icon-check"
@@ -483,7 +484,6 @@
         </button>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
