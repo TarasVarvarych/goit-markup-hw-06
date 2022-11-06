@@ -795,12 +795,9 @@ address {
 }
 
 .label-data {
-  display: flex;
-  flex-direction: column;
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
-  position: relative;
 }
 
 .modal-title {
